@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background-image: url('../assets/images/black-friday-wallpaper.png');
+    background-position: left;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+section{
+    height: 100vh;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-div{
+    width: 45%;
+    height: 80%;
+    margin-top: 3%;
+}
+
+.section-div h2{
+    margin-bottom: 2%;
+    background: #111111 !important;
+}
+
+.section-div p{
+    font-weight: 100;
+    margin-bottom: 5%;
+    background: #111111 !important;
+}
+
+#right-div{
+    background: #111111 !important;
+    color: #ffffff;
+    padding: 3%;
+}
+
+form{
+    padding-top: 5%;
+    background: #111111 !important;
+    border-top: 1px dashed #ffffff;
+}
+
+form input{
+    overflow: auto;
+    width: 100%;
+    padding: 2% 2%;
+    background: #FFFFFF !important;
+    border-color: #ffffff;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    border-radius: 2px;
+}
+
+label{
+    background: #111111 !important;
+}
+
+button{
+    width: 100%;
+    padding: 3% 0;
+    border-radius: 5px;
+    font-size: large;
+    color: #ffffff;
+    background: #d15a5a;
+    border-bottom: 5px solid #b64e4e;
+    margin-top: 3%;
+}
+
+button:hover{
+    cursor: pointer;
+}
