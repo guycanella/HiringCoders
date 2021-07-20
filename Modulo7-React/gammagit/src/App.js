@@ -1,14 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
+import Routes from "./router";
 
-function App(props) {
-    const [usuario, setUsuario] = useState('Guilherme');
+function App() {
+
     return (
-        <>
-        <h1>Hello Gamma Academy</h1>
-        <p>{ usuario }</p>
-        <input name="usuario" id="usuario" className="usuarioInput" placeholder="Usuário" />
-        <button type="button">Pesquisar</button>
-        </>
+        <Routes />
     );
 }
 
