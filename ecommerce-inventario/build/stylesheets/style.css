@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+.content form label textarea, .content form label input {
+  font-size: 1em;
+  width: 100%;
+  margin-top: 2%;
+  padding: 2% 2%;
+  border-radius: 5px;
+  border: 1px solid #cdc3b7;
+}
+.content form label textarea:focus, .content form label input:focus {
+  outline: 2px solid #999aff !important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+}
+
+.sidebar {
+  border-right: 3px solid #f2e6ff;
+  width: 15%;
+  height: 100vh;
+  padding-top: 2%;
+}
+.sidebar img {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+.sidebar p {
+  font-size: 1.5em;
+  padding: 3% 5%;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+.sidebar p:hover {
+  background: #f2e6ff;
+}
+
+.content {
+  width: 85%;
+  height: 100vh;
+  padding: 3%;
+}
+.content form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 3%;
+}
+.content form label {
+  font-size: 1.2em;
+  display: block;
+  width: 30%;
+  margin-bottom: 2%;
+}
+.content form button {
+  display: block;
+  width: 30%;
+  font-size: 1.2em;
+  padding: 1% 0;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+.content form button:hover {
+  cursor: pointer;
+}
+.content form #addProd {
+  background: #29a531;
+  height: 10%;
+}
+.content form #addProd:hover {
+  background: #1e7824;
+}
+.content form #addClient {
+  background: #29a531;
+}
+.content form #addClient:hover {
+  background: #1e7824;
+}
+.content form #cleanStorage {
+  background: #e31818;
+  height: 10%;
+}
+.content form #cleanStorage:hover {
+  background: #c72222;
+}
+
+/*# sourceMappingURL=style.css.map */

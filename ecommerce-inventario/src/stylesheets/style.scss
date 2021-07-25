@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+$cor-hover: #f2e6ff;
+$verde: #29a531;
+$verde-escuro: #1e7824;
+$vermelhao: #e31818;
+
+%baseInput{
+    font-size: 1em;
+    width: 100%;
+    margin-top: 2%;
+    padding: 2% 2%;
+    border-radius: 5px;
+    border: 1px solid #cdc3b7;
+
+    &:focus{
+        outline:2px solid #999aff !important;
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box;
+}
+
+section{
+    display: flex;
+}
+
+.sidebar{
+    border-right: 3px solid $cor-hover;
+    width: 15%;
+    height: 100vh;
+    padding-top: 2%;
+
+    img{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+
+    p{
+        font-size: 1.5em;
+        padding: 3% 5%;
+        margin-bottom: 5%;
+        cursor: pointer;
+
+        &:hover{
+            background: $cor-hover;
+        }
+    }
+}
+
+.content{
+    width: 85%;
+    height: 100vh;
+    padding: 3%;
+    
+    form{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 3%;
+
+        label{
+            font-size: 1.2em;
+            display: block;
+            width: 30%;
+            margin-bottom: 2%;
+    
+            input{
+                @extend %baseInput;
+            }
+
+            textarea{
+                @extend %baseInput;
+            }
+        }
+
+        button{
+            display: block;
+            width: 30%;
+            font-size: 1.2em;
+            padding: 1% 0;
+            color: #ffffff;
+            border-radius: 5px;
+            border: none;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+
+        #addProd{
+            background: $verde;
+            height: 10%;
+
+            &:hover{
+                background: $verde-escuro;
+            }
+        }
+        
+        #addClient{
+            background: $verde;
+
+            &:hover{
+                background: $verde-escuro;
+            }
+        }
+
+        #cleanStorage{
+            background: $vermelhao;
+            height: 10%;
+
+            &:hover{
+                background: #c72222;
+            }
+        }
+    }
+}
