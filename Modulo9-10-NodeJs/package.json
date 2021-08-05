@@ -1,0 +1,15 @@
+{
+  "name": "intro-nodejs-gamma",
+  "version": "1.0.0",
+  "description": "Pacote de introdução ao NPM no curso do Gamma Academy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guilherme Canella",
+  "license": "ISC",
+  "dependencies": {
+    "query-string": "^7.0.1",
+    "url": "^0.11.0"
+  }
+}
