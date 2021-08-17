@@ -1,0 +1,19 @@
+{
+  "name": "exercise02",
+  "version": "1.0.0",
+  "description": "Projeto em TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Guilherme Canella",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.6.0",
+    "query-string": "^7.0.1",
+    "typescript": "^4.3.5"
+  }
+}
